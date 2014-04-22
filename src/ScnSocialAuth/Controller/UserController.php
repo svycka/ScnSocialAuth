@@ -72,7 +72,7 @@ class UserController extends AbstractActionController
         }
 
         return $this->redirect()->toRoute(
-            $this->getServiceLocator()->get('zfcuser_module_options')->getLoginRedirectRoute()
+            $this->getOptions()->getPostAddProviderRoute()
         );
     }
 

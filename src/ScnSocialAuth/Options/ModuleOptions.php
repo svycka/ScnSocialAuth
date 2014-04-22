@@ -267,6 +267,11 @@ class ModuleOptions extends AbstractOptions
     protected $enableSocialRegistration = true;
 
     /**
+     * @var string
+     */
+    protected $postAddProviderRoute = 'zfcuser';
+
+    /**
      * get an array of enabled providers
      *
      * @return array
@@ -1273,5 +1278,27 @@ class ModuleOptions extends AbstractOptions
     public function getEnableSocialRegistration()
     {
         return $this->enableSocialRegistration;
+    }
+
+    /**
+     * Sets postAddProviderRoute
+     *
+     * @param string $postAddProviderRoute
+     *
+     * @return void
+     */
+    public function setPostAddProviderRoute()
+    {
+        $this->postAddProviderRoute = $postAddProviderRoute;
+    }
+
+    /**
+     * Gets postAddProviderRoute
+     *
+     * @return string
+     */
+    public function getPostAddProviderRoute()
+    {
+        return $this->postAddProviderRoute;
     }
 }

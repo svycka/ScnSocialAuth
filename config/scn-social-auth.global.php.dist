@@ -184,6 +184,13 @@ $settings = array(
     // 'enable_social_registration' => true,
 
     /**
+     * Route to redirect after a new provider is added
+     *
+     * Default: 'zfcuser'
+     */
+    // 'post_add_provider_route' => zfcuser,
+
+    /**
      * End of ScnSocialAuth configuration
      */
 );
