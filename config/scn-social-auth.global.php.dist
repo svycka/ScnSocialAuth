@@ -188,7 +188,7 @@ $settings = array(
      *
      * Default: 'zfcuser'
      */
-    // 'post_add_provider_route' => zfcuser,
+    // 'post_add_provider_route' => 'zfcuser',
 
     /**
      * End of ScnSocialAuth configuration

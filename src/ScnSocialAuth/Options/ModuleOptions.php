@@ -1287,7 +1287,7 @@ class ModuleOptions extends AbstractOptions
      *
      * @return void
      */
-    public function setPostAddProviderRoute()
+    public function setPostAddProviderRoute($postAddProviderRoute)
     {
         $this->postAddProviderRoute = $postAddProviderRoute;
     }
